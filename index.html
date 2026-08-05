@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nwokolo Chizoba Augustina | AI &amp; Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Your Nwokolo Chizoba Augustina — AI product builder and full-stack developer. Explore AI projects, full-stack apps, and download my resume.">
+
+  <!-- Google Fonts: Space Grotesk (display), Inter (body), JetBrains Mono (labels/eyebrows) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =============================
+       HEADER — sticky, logo + nav + hamburger (mobile)
+       ============================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+
+      <!-- Logo: replace "YN" / "Your Name" with your own name or initials -->
+      <a href="#top" class="logo" aria-label="Homepage">
+        <span class="logo-text">Nwokolo Chizoba Augustina</span>
+      </a>
+
+      <!-- Primary navigation -->
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="/cv/NWOKOLO CHIZOBA CV.pdf" class="nav-link nav-cta" download>CV</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger button, visible only on smaller screens via CSS -->
+      <button type="button" class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- =============================
+         HERO SECTION — photo, intro copy, resume link (ATS-friendly CV)
+         ============================= -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+
+        <div class="hero-copy">
+          <h1 class="hero-title">
+            I build <span class="highlight">AI products</span> and
+            <span class="highlight">full-stack apps</span> people actually use.
+          </h1>
+          <p class="hero-subtitle">
+            Software developer shipping AI-powered content and web applications.
+          </p>
+
+          <div class="hero-actions">
+            <!-- ATS-compliant resume/CV: keep this file as a clean, text-based PDF
+                 (no tables/graphics/columns) so applicant tracking systems can parse it. -->
+            <a href="/cv/NWOKOLO CHIZOBA CV.pdf" class="btn btn-primary" download>
+              📄 Download CV (PDF)
+            </a>
+            <a href="#projects" class="btn btn-outline">View Projects</a>
+          </div>
+
+          <ul class="hero-stats">
+            <li><strong>6</strong><span>Shipped Projects</span></li>
+            <li><strong>4</strong><span>AI Builds</span></li>
+            <li><strong>2</strong><span>Full-Stack Apps</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-photo-frame">
+          <!-- Replace assets/avatar-placeholder.svg with your real photo, e.g. assets/profile.jpg -->
+          <img src="/image/profile.png" alt="Portrait of Your Name" class="hero-photo" width="480" height="480">
+          <span class="frame-tag">ON AIR</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================
+         PROJECTS SECTION — 6 video cards (4 AI + 2 full-stack)
+         ============================= -->
+    <section class="projects" id="projects">
+      <div class="section-inner">
+
+        <h2 class="section-title">Projects on Reel</h2>
+        <p class="section-subtitle">
+          Six 60-second walkthroughs — press play on any channel below.
+        </p>
+
+        <div class="project-grid">
+
+          <!-- Project 1 — AI: Ebook -->
+          <article class="project-card">
+            <div class="card-media">
+              <span class="channel-tag">CH.01 · AI</span>
+              <!-- Replace the src below with your actual 60-second video file -->
+              <video controls preload="none" poster="/image/ebook.jpeg" class="card-video">
+                <source src="/videos/ebook_video.mp4">
+                Your browser does not support embedded video.
+              </video>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">The AI Wealth Blueprint</h3>
+              <p class="card-meta">Ebook · Published on Selar</p>
+              <p class="card-summary">
+                A practical ebook that solves a real problem: beginners don't know how to
+                turn AI tools into income. It breaks the process into step-by-step
+                strategies — and is already generating live sales on Selar.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 2 — AI: Podcast -->
+          <article class="project-card">
+            <div class="card-media">
+              <span class="channel-tag">CH.02 · AI</span>
+              <video controls preload="none" poster="/image/podcast.jpeg" class="card-video">
+                <source src="/videos/podcast_video.mp4">
+                Your browser does not support embedded video.
+              </video>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">The Podcast</h3>
+              <p class="card-meta">Audio Series · Independent Production</p>
+              <p class="card-summary">
+                One pot podcast, the ultimate podcast on a mission to end the legendary, spicy food rivalry between Nigeria and Ghana.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 3 — AI: Blog -->
+          <article class="project-card">
+            <div class="card-media">
+              <span class="channel-tag">CH.03 · AI</span>
+              <video controls preload="none" poster="/image/blog.jpeg" class="card-video">
+                <source src="/videos/blog.mp4" type="video/mp4">
+                Your browser does not support embedded video.
+              </video>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Personal Tech Blog</h3>
+              <p class="card-meta">Blog · Built &amp; Self-Hosted</p>
+              <p class="card-summary">
+               Your number one spot for everything hot and happening across Africa! From the latest music drops in Lagos and viral trends on social media to amazing style and everyday gist, we bring you the stories that matter with a fun twist.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 4 — AI: Sentiment Analysis -->
+          <article class="project-card">
+            <div class="card-media">
+              <span class="channel-tag">CH.04 · AI</span>
+              <video controls preload="none" poster="/image/sentiment_analysis.jpeg" class="card-video">
+                <source src="/videos/mega_chicken.mp4">
+                Your browser does not support embedded video.
+              </video>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Mega Chicken Sentiment Analysis</h3>
+              <p class="card-meta">AI / NLP · Sentiment Analysis</p>
+              <p class="card-summary">
+                Analyzes customer reviews for Mega Chicken restaurant in Lagos to solve a
+                real business problem: knowing what customers actually feel — beyond star
+                ratings — so the business can act on real feedback.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 5 — Full Stack: E-commerce -->
+          <article class="project-card">
+            <div class="card-media">
+              <span class="channel-tag">CH.05 · FULL-STACK</span>
+              <video controls preload="none" poster="/image/urban.jpeg" class="card-video">
+                <source src="/videos/urban haven.mp4" type="video/mp4">
+                Your browser does not support embedded video.
+              </video>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Urban Haven Enugu</h3>
+              <p class="card-meta">Full-Stack · E-commerce Website</p>
+              <p class="card-summary">
+                A full e-commerce platform solving local retail's biggest gap: no easy way
+                to browse, order, and pay online — built end-to-end from product catalog
+                to checkout.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 6 — Full Stack: Landing Page -->
+          <article class="project-card">
+            <div class="card-media">
+              <span class="channel-tag">CH.06 · FULL-STACK</span>
+              <video controls preload="none" poster="/image/nexus.jpeg" class="card-video">
+                <source src="/videos/nexus.mp4" type="video/mp4">
+                Your browser does not support embedded video.
+              </video>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Nexus</h3>
+              <p class="card-meta">Full-Stack · Landing Page (Tailwind CSS)</p>
+              <p class="card-summary">
+                A high-conversion landing page built for a digital company, solving their
+                need for a fast, modern, mobile-ready storefront for their services —
+                built with Tailwind CSS.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================
+         ABOUT SECTION — short bio anchor target for nav
+         ============================= -->
+    <section class="about" id="about">
+      <div class="section-inner about-inner">
+        <h2 class="section-title">A little about me</h2>
+        <p class="about-text">
+          I'm a software developer focused on building useful AI-powered products and
+          solid full-stack applications. I like shipping things people can actually try —
+          whether that's an ebook, a podcast, or a live web app — and writing about the
+          process along the way.
+          <!-- Replace this paragraph with your own bio -->
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =============================
+       FOOTER — contact + social handles + sitemap
+       ============================= -->
+  <footer class="site-footer" id="contact">
+    <div class="footer-inner">
+
+      <div class="footer-col footer-brand">
+        <a href="#top" class="logo footer-logo">
+          <span class="logo-text">Nwokolo Chizoba</span>
+        </a>
+        <p class="footer-tagline">Building AI products and full-stack apps, one release at a time.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-heading">Sitemap</h3>
+        <ul class="footer-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="/cv/NWOKOLO CHIZOBA CV.pdf" download>CV (PDF)</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-heading">Contact</h3>
+        <ul class="footer-list">
+          <li><a href="achizoba39@gmail.com">achizoba39@gmail.com</a></li>
+          <li><a href="tel:+2349066647758">+234 9066647758</a></li>
+          <li>Enugu, Nigeria</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-heading">Find me online</h3>
+        <ul class="footer-list social-list">
+          <li><a href="https://www.linkedin.com/in/chizoba-nwokolo-465452261?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://github.com/Chizoba-Nwokolo" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://x.com/zjoanclare?s=11" target="_blank" rel="noopener noreferrer">X / Twitter</a></li>
+          <li><a href="https://www.instagram.com/joanclare_z?igsh=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="https://selar.com/8618k8kt68" target="_blank" rel="noopener noreferrer">Selar Store</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Nwokolo Chizoba Augustina. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
